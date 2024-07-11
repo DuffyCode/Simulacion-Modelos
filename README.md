@@ -1,11 +1,12 @@
-#Simulacion-Modelos
+**`Simulacion-Modelos`**
 
-Mini-Juego activadad para Simulación y Modelos\
+Mini-Juego activadad para Simulación y Modelos.
 
-##**Play and Win**
+**`Play and Win`**
 
 **PlayandWin** es un minijuego de apuestas\
 Forma parte de un pequeño projecto unversitario.
 
-##**Lenguaje**
-**Python -v 3.10**
+**`Lenguaje`**
+
+Python v3.10.

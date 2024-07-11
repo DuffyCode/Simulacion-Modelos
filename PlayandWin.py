@@ -11,8 +11,7 @@ def startGame():
     inGame(initialMoney, minBet)
 
 def validatorData(prompt, min, max):
-    #Valida que el prompt es un numero valida.
-    #Valida que el numero cumpla con los valores min y max.
+    #Valida que el prompt sea un valor numerico valido.
     while True:
         try:
             value = int(input(prompt))
@@ -51,7 +50,7 @@ def inGame(initialMoney, minBet):
     endGame(initialMoney, earnedMoney, lostMoney, timesLoss, timesPlay, timesWon)
 
 def numberResult(number):
-    #saca el restante del numero entrante
+    #valida si es par o impar
     return number %2 == 0
 
 def endGame(initialMoney, earnedMoney, lostMoney, timesLoss, timesPlay, timesWon):
